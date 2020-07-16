@@ -80,12 +80,6 @@ const filterTasks = (term) => {
         .forEach((todo) => todo.classList.remove('filtered'));
 };
 
-// search.addEventListener('keyup', () => {
-//     // 空白削除かつ、小文字に変換(大文字・小文字の区別をなくす)
-//     const term = search.value.trim().toLowerCase();
-//     filterTasks(term);
-// });
-
 
 
 $(function(){
