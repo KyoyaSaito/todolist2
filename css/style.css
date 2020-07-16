@@ -1,0 +1,192 @@
+@charset "utf-8";
+
+
+
+body {
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.container {
+    max-width: 400px;
+}
+.title{
+    
+    font-size: 2em;
+    color: whitesmoke;
+    text-align: center;
+} 
+
+header {
+    text-align: center; 
+    height: 55px;
+
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+input[type=text],
+input[type=text]:focus {
+    color: #9abca4;
+    border: none;
+    background: rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+}
+
+/* 追加 */
+.todos li {
+    background: #84ace9;
+    color: rgb(49, 49, 49);
+    margin-top: 5px;
+}
+
+/* 追加 */
+.delete {
+    cursor: pointer;
+    color: orange;
+}
+
+.text {
+    color: black;
+}
+
+
+
+
+
+.weatherMain{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 300px; 
+    margin-bottom: 10px;
+
+} 
+
+
+
+
+/*jsで書いた*/
+.date{
+    display: none;
+    letter-spacing: 2px;
+} 
+
+.location{
+    display: none;
+    letter-spacing: 5px;
+
+}
+
+
+.dayWeather{
+    display: none;
+    letter-spacing: 5px;
+
+
+}
+
+
+.nowTemp{
+    display: none;
+    letter-spacing: 5px;
+
+
+} 
+
+.circle{
+    position: relative;
+    float: left;
+    width: 25%;
+
+}
+
+.circle p{
+    position: absolute;
+    
+    width: 40%;
+    max-width: 160px;
+    color: white;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+}
+.circle img{
+    width: 60%;
+    opacity: 70%;
+
+}
+
+@media screen and (max-width:414px){
+
+
+
+
+    .weatherMain{
+        text-align: left; 
+        font-size:xx-small;
+        padding-top: 30px;
+        padding-bottom: 110px;
+
+    }
+
+    .date{ 
+        letter-spacing: normal;
+    
+
+    }
+
+    .location{
+        margin-left: 60px;
+        font-size: 15px;
+        letter-spacing: normal;
+    
+    }
+
+    .dayWeather{
+        margin-left: 60px;
+        letter-spacing: normal;
+
+    }
+
+
+
+    
+
+
+
+.circle{
+    position: relative;
+    float: left;
+    width: 25%;
+    margin: 0 auto;
+}
+
+.circle p{
+    position: absolute;
+    font-size: xx-small;
+    width: 40%;
+    max-width: 160px;
+    color: white;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+}
+.circle img{
+    width: 80%;
+    opacity: 70%;
+
+}
+
+}
+
