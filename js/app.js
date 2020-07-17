@@ -139,7 +139,7 @@ $(document).ready(function () {
                         $('.dayWeather').text("RAIN");
                         $('.dayWeather').fadeIn(3000);
                     } else if (data.weather[0].main === "Clouds") {
-                        $('.weatherMain').css('background-image', 'url(img/Cloudy.jpeg)');
+                        $('.weatherMain').css('background-image', 'url(img/Cloudy.jpg)');
                         $('.dayWeather').text("CLOUDY");
                         $('.dayWeather').fadeIn(3000);
                     } else if (data.weather[0].main === "Snow") {
