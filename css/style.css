@@ -29,7 +29,7 @@ header {
 
 input[type=text],
 input[type=text]:focus {
-    color: #9abca4;
+    color: #272727;
     border: none;
     background: rgba(0, 0, 0, 0.2);
     max-width: 400px;
